@@ -1,0 +1,114 @@
+:root {
+  --bg: #f5f5f5;
+  --bg-1: #fff;
+  --blue-text: #444bab;
+  --grey-1: #263238;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-1);
+  border-bottom: 1px solid #f3f3f3;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-text);
+}
+
+header .logo-c a img {
+  height: 2.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+}
+
+header .bell-icon-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .bell-icon-c img {
+  width: 1.2rem;
+  height: auto;
+}
+
+header .user-profile-c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+}
+
+header .user-profile-c .user-profile-img {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+header .user-profile-c .dropdown-arrow-c {
+  width: 13px;
+  height: auto;
+}
+
+.main-c {
+  display: grid;
+  padding: 4rem;
+  grid-template-columns: auto 70%;
+  gap: 4rem;
+}
+
+.left-c .user-profile-c {
+  padding: 4rem 0;
+  background-color: var(--bg-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 57px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--grey-1);
+}
+
+.left-c .user-profile-c img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--blue-text);
+  padding: 2px;
+  border-radius: 50%;
+}
