@@ -1,57 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="logo-c">
-        <a href="/index.html">
-          <img src="./assets/logo.svg" alt="Logo" />
-        </a>
-      </div>
-      <nav>
-        <div class="bell-icon-c">
-          <img
-            src="./assets/notification_outline_dot.svg"
-            alt="Notification Icon"
-          />
-        </div>
-        <div class="user-profile-c">
-          <img
-            class="user-profile-img"
-            src="./assets/profile-image.png"
-            alt="User Profile Image"
-          />
-          Ashley H.
-          <img
-            class="dropdown-arrow-svg"
-            src="./assets/chevron.svg"
-            alt="dropdown arrow"
-          />
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
 
-    <div class="main-c">
-      <div class="left-c">
-        <div class="user-profile-c">
-          <img src="./assets/profile-image.png" alt="User Profile Image" />
-          Ms. Ashley H
-        </div>
-      </div>
-      <div class="right-c"></div>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="logo-c">
+      <a href="/index.html">
+        <img src="./assets/logo.svg" alt="Logo" />
+      </a>
     </div>
-  </body>
+    <nav>
+      <div class="bell-icon-c">
+        <img src="./assets/notification_outline_dot.svg" alt="Notification Icon" />
+      </div>
+      <div class="user-profile-c">
+        <img class="user-profile-img" src="./assets/profile-image.png" alt="User Profile Image" />
+        Ashley H.
+        <img class="dropdown-arrow-svg" src="./assets/chevron.svg" alt="dropdown arrow" />
+      </div>
+    </nav>
+  </header>
+
+  <div class="main-c">
+    <div class="left-c">
+      <div class="user-profile-c">
+        <img class="profile-image" src="./assets/profile-image.png" alt="User Profile Image" />
+        Ms. Ashley H
+        <div style="height: 1px; width: 100%; margin-top: 2rem;"></div>
+        <!-- Left Sub 1 -->
+        <div class="left-sub-c">
+          <h2>About</h2>
+          <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            a galley of type and scrambled
+          </p>
+        </div>
+        <div class="hr-style-1"></div>
+        <!-- Left Sub 2 -->
+        <div class="left-sub-c left-sub-2">
+          <h2>Contact</h2>
+          <span><img src="./assets/message.svg" alt="message icon" />ashley.hxyz@gmail.com</span>
+          <span><img src="./assets/phone.svg" alt="message icon" />+91 9876543210</span>
+        </div>
+        <!-- <div class="hr-style-1"></div> -->
+        <!-- Left Sub 3 -->
+        <div class="left-sub-c left-sub-3">
+          <h2>On The Web</h2>
+          <span><img src="./assets/linkedin.svg" alt="message icon" />ashley-hxyz-07</span>
+          <span><img src="./assets/chart.svg" alt="message icon" />ashley-hxyz-07</span>
+          <span><img src="./assets/leetcode.svg" alt="message icon" />ashley-hxyz-07</span>
+          <span><img src="./assets/github.svg" alt="message icon" />ashley-hxyz-07</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="right-c">
+      <!-- Sub C 1 -->
+      <div class="right-sub-c">
+        <h2>Education</h2>
+        <div class="hr-style-1"></div>
+        <div class="right-sub-c-text">
+          <span class="dark-text font-500">Bachelor of Technology (B.Tech), Computer Science and Engineering </span>
+          <span>Indian Institute of Technology, BHU</span>
+          <span>2024</span>
+          <span>78%</span>
+        </div>
+      </div>
+      <!-- Sub C 2 -->
+      <div class="right-sub-c">
+        <h2>Work Experience</h2>
+        <div class="hr-style-1"></div>
+        <div class="right-sub-c-text">
+          <span class="dark-text font-500">Software Engineer</span>
+          <span>Capgemini, Full-time</span>
+          <span>Jan 2021 - May 2021</span>
+          <span>
+            <span class="dark-text">Description:</span>
+            <span>Pro Tip:</span>
+            <ul>
+              <li>Mention key job responsibilities, measurable impact or results you helped deliver, any
+                awards/recognition you won during this time</li>
+              <li>Use action verbs: Built, Led, Drove, Conceptualized, Learnt, etc.</li>
+              <li>Use numbers and percentages wherever possible</li>
+              <li>Keep it to 3-4 points</li>
+            </ul>
+          </span>
+          <span>
+            <span class="dark-text">Project Details:</span>
+            <span>Pro tip: Use STAR approach!</span>
+            <ul>
+              <li>Explain the Situation and provide context</li>
+              <li>Describe the Task. What was needed to be done and why?</li>
+              <li>Explain the actions you took</li>
+              <li>Describe the results in terms of benefits realized</li>
+              <li>Keep it to 4-5 points</li>
+            </ul>
+          </span>
+          <span class="dark-text font-500"><em>C++, Amazon Web Services</em></span>
+        </div>
+      </div>
+      <!-- Sub C 3 -->
+      <div class="right-sub-c">
+        <h2>Academic/Personal Projects</h2>
+        <div class="hr-style-1"></div>
+        <div class="right-sub-c-text">
+          <span class="dark-text font-500">Movies Bazaar</span>
+          <span>Jan 2021 - May 2021</span>
+          <a href="https://www.moviesbazaar.com/ashley" target="_blank">https://www.moviesbazaar.com/ashley
+          </a>
+          <span class="dark-text">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+            also the leap into electronic typesetting, remaining essentially unchanged.
+          </span>
+          <span class="dark-text font-500"><em>C++, Amazon Web Services</em></span>
+        </div>
+      </div>
+      <!-- Sub C 4 -->
+      <div class="right-sub-c">
+        <h2>Technologies/Frameworks/Coding Languages</h2>
+        <div class="hr-style-1"></div>
+        <div class="right-sub-c-text">
+          <span style="display: flex; gap: 4px;">
+            <p class="dark-text font-500">Technologies:</p> Amazon Web Services
+          </span>
+          <span style="display: flex; gap: 4px;">
+            <p class="dark-text font-500">Frameworks</p> Javascript
+          </span>
+          <span style="display: flex; gap: 4px;">
+            <p class="dark-text font-500">Coding Languages:</p> C++, Python
+          </span>
+        </div>
+      </div>
+      <!-- Sub C 5 -->
+      <div class="right-sub-c">
+        <h2>Achievements</h2>
+        <div class="hr-style-1"></div>
+        <div class="right-sub-c-text">
+          <span class="font-500 dark-text">Secured 1st rank in All India Coding competetion organised by Programming
+            Pathshala</span>
+          <span class="font-500 dark-text">Secured 2nd rank in All India Coding competetion organised by
+            LeetCode</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
